@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{38430DEB-FF90-4FAB-B1F2-3E375E8D4B78}|PersonalityAssessment.Api\\PersonalityAssessment.Api.csproj|solutionrelative:personalityassessment.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Infrastructure\\Migrations\\20260413102452_Init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PersonalityAssessment.Infrastructure\\Migrations\\20260413102452_Init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38430DEB-FF90-4FAB-B1F2-3E375E8D4B78}|PersonalityAssessment.Api\\PersonalityAssessment.Api.csproj|c:\\users\\tcc\\desktop\\t-personalityassessment-main\\t-personalityassessment-main\\personalityassessment.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38430DEB-FF90-4FAB-B1F2-3E375E8D4B78}|PersonalityAssessment.Api\\PersonalityAssessment.Api.csproj|solutionrelative:personalityassessment.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38430DEB-FF90-4FAB-B1F2-3E375E8D4B78}|PersonalityAssessment.Api\\PersonalityAssessment.Api.csproj|c:\\users\\tcc\\desktop\\t-personalityassessment-main\\t-personalityassessment-main\\personalityassessment.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -227,12 +227,12 @@
       "RelativeMoniker": "D:0:0:{38430DEB-FF90-4FAB-B1F2-3E375E8D4B78}|PersonalityAssessment.Api\\PersonalityAssessment.Api.csproj|solutionrelative:personalityassessment.api\\controllers\\appusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38430DEB-FF90-4FAB-B1F2-3E375E8D4B78}|PersonalityAssessment.Api\\PersonalityAssessment.Api.csproj|c:\\users\\tcc\\desktop\\t-personalityassessment-main\\t-personalityassessment-main\\personalityassessment.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38430DEB-FF90-4FAB-B1F2-3E375E8D4B78}|PersonalityAssessment.Api\\PersonalityAssessment.Api.csproj|solutionrelative:personalityassessment.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B969EDF8-A266-4CF0-9243-2AC752B39A8A}|PersonalityAssessment.Infrastructure\\PersonalityAssessment.Infrastructure.csproj|c:\\users\\tcc\\desktop\\t-personalityassessment-main\\t-personalityassessment-main\\personalityassessment.infrastructure\\user\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B969EDF8-A266-4CF0-9243-2AC752B39A8A}|PersonalityAssessment.Infrastructure\\PersonalityAssessment.Infrastructure.csproj|solutionrelative:personalityassessment.infrastructure\\user\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B969EDF8-A266-4CF0-9243-2AC752B39A8A}|PersonalityAssessment.Infrastructure\\PersonalityAssessment.Infrastructure.csproj|c:\\users\\tcc\\desktop\\t-personalityassessment-main\\t-personalityassessment-main\\personalityassessment.infrastructure\\migrations\\20260413102452_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B969EDF8-A266-4CF0-9243-2AC752B39A8A}|PersonalityAssessment.Infrastructure\\PersonalityAssessment.Infrastructure.csproj|solutionrelative:personalityassessment.infrastructure\\migrations\\20260413102452_init1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -242,21 +242,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20260413102452_Init1.cs",
-              "DocumentMoniker": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Infrastructure\\Migrations\\20260413102452_Init1.cs",
-              "RelativeDocumentMoniker": "PersonalityAssessment.Infrastructure\\Migrations\\20260413102452_Init1.cs",
-              "ToolTip": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Infrastructure\\Migrations\\20260413102452_Init1.cs",
-              "RelativeToolTip": "PersonalityAssessment.Infrastructure\\Migrations\\20260413102452_Init1.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T10:24:53.145Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
@@ -267,8 +254,7 @@
               "RelativeToolTip": "PersonalityAssessment.Api\\Controllers\\ImagesController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAQwAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T23:22:00.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T23:22:00.516Z"
             },
             {
               "$type": "Document",
@@ -280,8 +266,7 @@
               "RelativeToolTip": "PersonalityAssessment.Api\\Controllers\\WeakneesController.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T23:33:13.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T23:33:13.803Z"
             },
             {
               "$type": "Document",
@@ -293,8 +278,7 @@
               "RelativeToolTip": "PersonalityAssessment.Api\\Controllers\\UsersAssessmentResultPersonalityTypeController.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAgwEUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T23:31:55.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T23:31:55.489Z"
             },
             {
               "$type": "Document",
@@ -306,8 +290,7 @@
               "RelativeToolTip": "PersonalityAssessment.Api\\Controllers\\AdminController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T16:24:33.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T16:24:33.859Z"
             },
             {
               "$type": "Document",
@@ -324,6 +307,31 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Api\\Program.cs",
+              "RelativeDocumentMoniker": "PersonalityAssessment.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Api\\Program.cs",
+              "RelativeToolTip": "PersonalityAssessment.Api\\Program.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAIAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T15:21:35.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20260413102452_Init1.cs",
+              "DocumentMoniker": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Infrastructure\\Migrations\\20260413102452_Init1.cs",
+              "RelativeDocumentMoniker": "PersonalityAssessment.Infrastructure\\Migrations\\20260413102452_Init1.cs",
+              "ToolTip": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Infrastructure\\Migrations\\20260413102452_Init1.cs",
+              "RelativeToolTip": "PersonalityAssessment.Infrastructure\\Migrations\\20260413102452_Init1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T10:24:53.145Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "IIdentityService.cs",
               "DocumentMoniker": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Core\\Interface\\IIdentityService.cs",
@@ -332,8 +340,7 @@
               "RelativeToolTip": "PersonalityAssessment.Core\\Interface\\IIdentityService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T09:58:12.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T09:58:12.451Z"
             },
             {
               "$type": "Document",
@@ -345,8 +352,7 @@
               "RelativeToolTip": "PersonalityAssessment.Core\\Interface\\IGoogleIdTokenValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T09:58:11.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T09:58:11.337Z"
             },
             {
               "$type": "Document",
@@ -358,8 +364,7 @@
               "RelativeToolTip": "PersonalityAssessment.Core\\Interface\\ICacheService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T09:58:10.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T09:58:10.008Z"
             },
             {
               "$type": "Document",
@@ -371,8 +376,7 @@
               "RelativeToolTip": "PersonalityAssessment.Core\\Interface\\IAdminRequestMetrics.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T09:58:08.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T09:58:08.506Z"
             },
             {
               "$type": "Document",
@@ -384,8 +388,7 @@
               "RelativeToolTip": "PersonalityAssessment.Core\\Interface\\IAdminDataService.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T09:57:41.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T09:57:41.256Z"
             },
             {
               "$type": "Document",
@@ -397,8 +400,7 @@
               "RelativeToolTip": "PersonalityAssessment.Core\\Admin\\AdminDataContracts.cs",
               "ViewState": "AgIAAFsAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T09:56:47.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T09:56:47.865Z"
             },
             {
               "$type": "Document",
@@ -446,8 +448,7 @@
               "RelativeToolTip": "PersonalityAssessment.Core\\Entities\\UsersAssessmentResultPersonalityType.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA7wAgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T02:19:46.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T02:19:46.813Z"
             },
             {
               "$type": "Document",
@@ -931,7 +932,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 56,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Infrastructure\\User\\AppUser.cs",
               "RelativeDocumentMoniker": "PersonalityAssessment.Infrastructure\\User\\AppUser.cs",
@@ -940,18 +941,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-11T15:28:54.797Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Api\\Program.cs",
-              "RelativeDocumentMoniker": "PersonalityAssessment.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Api\\Program.cs",
-              "RelativeToolTip": "PersonalityAssessment.Api\\Program.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAUwGMAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T15:21:35.683Z"
             }
           ]
         }

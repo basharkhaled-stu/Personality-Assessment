@@ -497,3 +497,4 @@ C:\Users\TCC\Desktop\t-PersonalityAssessment-main\t-PersonalityAssessment-main\P
 C:\Users\TCC\Desktop\t-PersonalityAssessment-main\t-PersonalityAssessment-main\PersonalityAssessment.Api\obj\Debug\net8.0\PersonalityAssessment.Api.genruntimeconfig.cache
 C:\Users\TCC\Desktop\t-PersonalityAssessment-main\t-PersonalityAssessment-main\PersonalityAssessment.Api\obj\Debug\net8.0\ref\PersonalityAssessment.Api.dll
 C:\Users\TCC\Desktop\t-PersonalityAssessment-main\t-PersonalityAssessment-main\PersonalityAssessment.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\TCC\Desktop\t-PersonalityAssessment-main\t-PersonalityAssessment-main\PersonalityAssessment.Api\obj\Debug\net8.0\PersonalityAssessment.Api.sourcelink.json
