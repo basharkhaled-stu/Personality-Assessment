@@ -1,0 +1,2948 @@
+[
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AdminController",
+    "Method": "Analytics",
+    "RelativePath": "api/Admin/Analytics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "days",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AdminController",
+    "Method": "Assessments",
+    "RelativePath": "api/Admin/Assessments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AdminController",
+    "Method": "GetAssessment",
+    "RelativePath": "api/Admin/Assessments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AdminController",
+    "Method": "DeleteAssessment",
+    "RelativePath": "api/Admin/Assessments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AdminController",
+    "Method": "Dashboard",
+    "RelativePath": "api/Admin/Dashboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AdminController",
+    "Method": "SystemHealth",
+    "RelativePath": "api/Admin/SystemHealth",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AdminController",
+    "Method": "Users",
+    "RelativePath": "api/Admin/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AdminController",
+    "Method": "GetUser",
+    "RelativePath": "api/Admin/Users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AdminController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Admin/Users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AppUserController",
+    "Method": "UpdateEmail",
+    "RelativePath": "api/AppUser/Email",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.Options.DTO.UpdateEmailappUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AppUserController",
+    "Method": "UpdateFirstName",
+    "RelativePath": "api/AppUser/FirstName",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.Options.DTO.UpdateFirstNameappUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AppUserController",
+    "Method": "ForgetPassword",
+    "RelativePath": "api/AppUser/ForgetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.Options.DTO.ForgetPasswordappUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AppUserController",
+    "Method": "GoogleLogin",
+    "RelativePath": "api/AppUser/GoogleLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.Options.DTO.GoogleLoginappUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AppUserController",
+    "Method": "UpdateLastName",
+    "RelativePath": "api/AppUser/LastName",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.Options.DTO.UpdateLastNameappUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AppUserController",
+    "Method": "Login",
+    "RelativePath": "api/AppUser/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.Options.DTO.LoginappUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AppUserController",
+    "Method": "LoginByEmail",
+    "RelativePath": "api/AppUser/LoginByEmail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.Options.DTO.LoginByEmailappUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AppUserController",
+    "Method": "Logout",
+    "RelativePath": "api/AppUser/Logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AppUserController",
+    "Method": "UpdatePassword",
+    "RelativePath": "api/AppUser/Password",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.Options.DTO.UpdatePasswordappUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AppUserController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/AppUser/Profile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.Options.DTO.UpdateProfileappUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AppUserController",
+    "Method": "UpdateProfileImage",
+    "RelativePath": "api/AppUser/ProfileImage",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AppUserController",
+    "Method": "Register",
+    "RelativePath": "api/AppUser/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.Options.DTO.RegisterappUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AppUserController",
+    "Method": "UpdateUsername",
+    "RelativePath": "api/AppUser/Username",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.Options.DTO.UpdateUsernameappUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AssessmentsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Assessments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Common.DTOS.PagedResult\u00601[[PersonalityAssessment.Application.Features.Assessmentes.DTO.ReadAssessmentDTO, PersonalityAssessment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AssessmentsController",
+    "Method": "Create",
+    "RelativePath": "api/Assessments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.Assessmentes.DTO.CreateAssessmentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.Assessmentes.DTO.ReadAssessmentDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AssessmentsController",
+    "Method": "GetById",
+    "RelativePath": "api/Assessments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.Assessmentes.DTO.ReadAssessmentDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AssessmentsController",
+    "Method": "Update",
+    "RelativePath": "api/Assessments/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.Assessmentes.DTO.UpdateAssessmentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.Assessmentes.DTO.ReadAssessmentDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AssessmentsController",
+    "Method": "Delete",
+    "RelativePath": "api/Assessments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AssessmentsController",
+    "Method": "GetByIdAdmin",
+    "RelativePath": "api/Assessments/admin/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.Assessmentes.DTO.AdmainReadAssessmentDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AssessmentStatusController",
+    "Method": "Create",
+    "RelativePath": "api/AssessmentStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.AssessmentStatuses.DTO.CreateAssessmentStatusDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.AssessmentStatuses.DTO.ReadAssessmentStatusDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AssessmentStatusController",
+    "Method": "GetAll",
+    "RelativePath": "api/AssessmentStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Common.DTOS.PagedResult\u00601[[PersonalityAssessment.Application.Features.AssessmentStatuses.DTO.ReadAssessmentStatusDTO, PersonalityAssessment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AssessmentStatusController",
+    "Method": "GetById",
+    "RelativePath": "api/AssessmentStatus/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.AssessmentStatuses.DTO.ReadAssessmentStatusDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AssessmentStatusController",
+    "Method": "Update",
+    "RelativePath": "api/AssessmentStatus/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.AssessmentStatuses.DTO.UpdateAssessmentStatusDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.AssessmentStatuses.DTO.ReadAssessmentStatusDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AssessmentStatusController",
+    "Method": "Delete",
+    "RelativePath": "api/AssessmentStatus/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AssessmentStatusController",
+    "Method": "GetByIdAdmain",
+    "RelativePath": "api/AssessmentStatus/Admin/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.AssessmentStatuses.DTO.AdmainReadAssessmentStatusDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AssessmentTypeController",
+    "Method": "Create",
+    "RelativePath": "api/AssessmentType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.AssessmentTypes.DTO.CreateAssessmentTypeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AssessmentTypeController",
+    "Method": "GetAll",
+    "RelativePath": "api/AssessmentType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Common.DTOS.PagedResult\u00601[[PersonalityAssessment.Application.Features.AssessmentTypes.DTO.ReadAssessmentTypeDTO, PersonalityAssessment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AssessmentTypeController",
+    "Method": "GetById",
+    "RelativePath": "api/AssessmentType/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.AssessmentTypes.DTO.ReadAssessmentTypeDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AssessmentTypeController",
+    "Method": "Update",
+    "RelativePath": "api/AssessmentType/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.AssessmentTypes.DTO.UpdateAssessmentTypeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.AssessmentTypes.DTO.ReadAssessmentTypeDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AssessmentTypeController",
+    "Method": "Delete",
+    "RelativePath": "api/AssessmentType/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AssessmentTypeController",
+    "Method": "GetByIdAdmain",
+    "RelativePath": "api/AssessmentType/Admin/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.AssessmentTypes.DTO.AdmainReadAssessmentTypeDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.ImagesController",
+    "Method": "Upload",
+    "RelativePath": "api/Images/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.OptionController",
+    "Method": "Create",
+    "RelativePath": "api/Option",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.Options.DTO.CreateOptionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.Options.DTO.ReadOptionDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.OptionController",
+    "Method": "GetAll",
+    "RelativePath": "api/Option",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Common.DTOS.PagedResult\u00601[[PersonalityAssessment.Application.Features.Options.DTO.ReadOptionDTO, PersonalityAssessment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.OptionController",
+    "Method": "GetById",
+    "RelativePath": "api/Option/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.Options.DTO.ReadOptionDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.OptionController",
+    "Method": "Update",
+    "RelativePath": "api/Option/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.Options.DTO.UpdateOptionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.Options.DTO.ReadOptionDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.OptionController",
+    "Method": "Delete",
+    "RelativePath": "api/Option/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.OptionController",
+    "Method": "GetByIdAdmain",
+    "RelativePath": "api/Option/Admin/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.Options.DTO.AdmainReadOptionDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.OptionPersonalityScoreController",
+    "Method": "Create",
+    "RelativePath": "api/OptionPersonalityScore",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.OptionPersonalityScores.DTO.CreateOptionPersonalityScoreDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.OptionPersonalityScores.DTO.ReadOptionPersonalityScoreDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.OptionPersonalityScoreController",
+    "Method": "GetAll",
+    "RelativePath": "api/OptionPersonalityScore",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Common.DTOS.PagedResult\u00601[[PersonalityAssessment.Application.Features.OptionPersonalityScores.DTO.ReadOptionPersonalityScoreDTO, PersonalityAssessment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.OptionPersonalityScoreController",
+    "Method": "GetById",
+    "RelativePath": "api/OptionPersonalityScore/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.OptionPersonalityScores.DTO.ReadOptionPersonalityScoreDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.OptionPersonalityScoreController",
+    "Method": "Update",
+    "RelativePath": "api/OptionPersonalityScore/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.OptionPersonalityScores.DTO.UpdateOptionPersonalityScoreDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.OptionPersonalityScores.DTO.ReadOptionPersonalityScoreDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.OptionPersonalityScoreController",
+    "Method": "Delete",
+    "RelativePath": "api/OptionPersonalityScore/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.OptionPersonalityScoreController",
+    "Method": "GetByIdAdmain",
+    "RelativePath": "api/OptionPersonalityScore/Admin/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.OptionPersonalityScores.DTO.AdmainReadOptionPersonalityScoreDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.PersonalityTypeController",
+    "Method": "Create",
+    "RelativePath": "api/PersonalityType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.PersonalityTypes.DTO.CreatePersonalityTypeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.PersonalityTypes.DTO.ReadPersonalityTypeDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.PersonalityTypeController",
+    "Method": "GetAll",
+    "RelativePath": "api/PersonalityType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Common.DTOS.PagedResult\u00601[[PersonalityAssessment.Application.Features.PersonalityTypes.DTO.ReadPersonalityTypeDTO, PersonalityAssessment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.PersonalityTypeController",
+    "Method": "GetById",
+    "RelativePath": "api/PersonalityType/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.PersonalityTypes.DTO.ReadPersonalityTypeDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.PersonalityTypeController",
+    "Method": "Update",
+    "RelativePath": "api/PersonalityType/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.PersonalityTypes.DTO.UpdatePersonalityTypeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.PersonalityTypes.DTO.ReadPersonalityTypeDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.PersonalityTypeController",
+    "Method": "Delete",
+    "RelativePath": "api/PersonalityType/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.PersonalityTypeController",
+    "Method": "GetByIdAdmain",
+    "RelativePath": "api/PersonalityType/Admin/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.QuestionController",
+    "Method": "Create",
+    "RelativePath": "api/Question",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.Questions.DTO.CreateQuestionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.Questions.DTO.ReadQuestionDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.QuestionController",
+    "Method": "GetAll",
+    "RelativePath": "api/Question",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Common.DTOS.PagedResult\u00601[[PersonalityAssessment.Application.Features.Questions.DTO.ReadQuestionDTO, PersonalityAssessment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.QuestionController",
+    "Method": "GetById",
+    "RelativePath": "api/Question/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.Questions.DTO.ReadQuestionDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.QuestionController",
+    "Method": "Update",
+    "RelativePath": "api/Question/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.Questions.DTO.UpdateQuestionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.Questions.DTO.ReadQuestionDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.QuestionController",
+    "Method": "Delete",
+    "RelativePath": "api/Question/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.QuestionController",
+    "Method": "GetByIdAdmain",
+    "RelativePath": "api/Question/Admin/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.Questions.DTO.AdmainReadQuestionDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.QuestionTypeController",
+    "Method": "Create",
+    "RelativePath": "api/QuestionType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.QuestionTypes.DTO.CreateQuestionTypeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.QuestionTypes.DTO.ReadQuestionTypeDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.QuestionTypeController",
+    "Method": "GetAll",
+    "RelativePath": "api/QuestionType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Common.DTOS.PagedResult\u00601[[PersonalityAssessment.Application.Features.QuestionTypes.DTO.ReadQuestionTypeDTO, PersonalityAssessment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.QuestionTypeController",
+    "Method": "GetById",
+    "RelativePath": "api/QuestionType/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.QuestionTypes.DTO.ReadQuestionTypeDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.QuestionTypeController",
+    "Method": "Update",
+    "RelativePath": "api/QuestionType/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.QuestionTypes.DTO.UpdateQuestionTypeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.QuestionTypes.DTO.ReadQuestionTypeDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.QuestionTypeController",
+    "Method": "Delete",
+    "RelativePath": "api/QuestionType/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.QuestionTypeController",
+    "Method": "GetByIdAdmain",
+    "RelativePath": "api/QuestionType/Admain/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.QuestionTypes.DTO.AdmainReadQuestionTypeDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.StrengthController",
+    "Method": "Create",
+    "RelativePath": "api/Strength",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.Strengths.DTO.CreateStrengthDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.Strengths.DTO.ReadStrengthDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.StrengthController",
+    "Method": "GetAll",
+    "RelativePath": "api/Strength",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Common.DTOS.PagedResult\u00601[[PersonalityAssessment.Application.Features.Strengths.DTO.ReadStrengthDTO, PersonalityAssessment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.StrengthController",
+    "Method": "GetById",
+    "RelativePath": "api/Strength/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.Strengths.DTO.ReadStrengthDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.StrengthController",
+    "Method": "Update",
+    "RelativePath": "api/Strength/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.Strengths.DTO.UpdateStrengthDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.Strengths.DTO.ReadStrengthDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.StrengthController",
+    "Method": "Delete",
+    "RelativePath": "api/Strength/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.StrengthController",
+    "Method": "GetByIdAdmain",
+    "RelativePath": "api/Strength/Admin/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.Strengths.DTO.AdmainReadStrengthDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UserAnswerController",
+    "Method": "Create",
+    "RelativePath": "api/UserAnswer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.UserAnswers.DTO.CreateUserAnswerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.UserAnswers.DTO.ReadUserAnswerDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UserAnswerController",
+    "Method": "GetAll",
+    "RelativePath": "api/UserAnswer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Common.DTOS.PagedResult\u00601[[PersonalityAssessment.Application.Features.UserAnswers.DTO.ReadUserAnswerDTO, PersonalityAssessment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UserAnswerController",
+    "Method": "GetById",
+    "RelativePath": "api/UserAnswer/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.UserAnswers.DTO.ReadUserAnswerDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UserAnswerController",
+    "Method": "Update",
+    "RelativePath": "api/UserAnswer/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.UserAnswers.DTO.UpdateUserAnswerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.UserAnswers.DTO.ReadUserAnswerDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UserAnswerController",
+    "Method": "Delete",
+    "RelativePath": "api/UserAnswer/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UserAnswerController",
+    "Method": "GetByIdAdmain",
+    "RelativePath": "api/UserAnswer/Admin/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.UserAnswers.DTO.AdmainReadUserAnswerDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UserAssessmentStatusController",
+    "Method": "Create",
+    "RelativePath": "api/UserAssessmentStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.UserAssessmentStatuses.DTO.CreateUserAssessmentStatusDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.UserAssessmentStatuses.DTO.ReadUserAssessmentStatusDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UserAssessmentStatusController",
+    "Method": "GetAll",
+    "RelativePath": "api/UserAssessmentStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Common.DTOS.PagedResult\u00601[[PersonalityAssessment.Application.Features.UserAssessmentStatuses.DTO.ReadUserAssessmentStatusDTO, PersonalityAssessment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UserAssessmentStatusController",
+    "Method": "GetById",
+    "RelativePath": "api/UserAssessmentStatus/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.UserAssessmentStatuses.DTO.ReadUserAssessmentStatusDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UserAssessmentStatusController",
+    "Method": "Update",
+    "RelativePath": "api/UserAssessmentStatus/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.UserAssessmentStatuses.DTO.UpdateUserAssessmentStatusDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.UserAssessmentStatuses.DTO.ReadUserAssessmentStatusDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UserAssessmentStatusController",
+    "Method": "Delete",
+    "RelativePath": "api/UserAssessmentStatus/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UserAssessmentStatusController",
+    "Method": "GetByIdAdmain",
+    "RelativePath": "api/UserAssessmentStatus/Admin/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.UserAssessmentStatuses.DTO.AdmainUserAssessmentStatusDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UsersAssessmentController",
+    "Method": "Create",
+    "RelativePath": "api/UsersAssessment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.UsersAssessments.DTO.CreateUsersAssessmentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.UsersAssessments.DTO.ReadUsersAssessmentDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UsersAssessmentController",
+    "Method": "GetAll",
+    "RelativePath": "api/UsersAssessment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Common.DTOS.PagedResult\u00601[[PersonalityAssessment.Application.Features.UsersAssessments.DTO.ReadUsersAssessmentDTO, PersonalityAssessment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UsersAssessmentController",
+    "Method": "GetById",
+    "RelativePath": "api/UsersAssessment/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.UsersAssessments.DTO.ReadUsersAssessmentDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UsersAssessmentController",
+    "Method": "Delete",
+    "RelativePath": "api/UsersAssessment/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UsersAssessmentController",
+    "Method": "Update",
+    "RelativePath": "api/UsersAssessment/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.UsersAssessments.DTO.UpdateUsersAssessmentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.UsersAssessments.DTO.ReadUsersAssessmentDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UsersAssessmentController",
+    "Method": "GetByIdAdmain",
+    "RelativePath": "api/UsersAssessment/Admin/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.UsersAssessments.DTO.AdmainReadUsersAssessmentDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UsersAssessmentController",
+    "Method": "GetResult",
+    "RelativePath": "api/UsersAssessment/Result/{usersAssessmentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usersAssessmentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.UsersAssessments.DTO.AssessmentResultDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UsersAssessmentController",
+    "Method": "Submit",
+    "RelativePath": "api/UsersAssessment/Submit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.UsersAssessments.DTO.SubmitAssessmentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.UsersAssessments.DTO.AssessmentResultDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UsersAssessmentResultController",
+    "Method": "Create",
+    "RelativePath": "api/UsersAssessmentResult",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.UsersAssessmentResults.DTO.CreateUsersAssessmentResultDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.UsersAssessmentResults.DTO.ReadUsersAssessmentResultDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UsersAssessmentResultController",
+    "Method": "GetAll",
+    "RelativePath": "api/UsersAssessmentResult",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Common.DTOS.PagedResult\u00601[[PersonalityAssessment.Application.Features.QuestionTypes.DTO.ReadQuestionTypeDTO, PersonalityAssessment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UsersAssessmentResultController",
+    "Method": "GetById",
+    "RelativePath": "api/UsersAssessmentResult/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.UsersAssessmentResults.DTO.ReadUsersAssessmentResultDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UsersAssessmentResultController",
+    "Method": "Update",
+    "RelativePath": "api/UsersAssessmentResult/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.UsersAssessmentResults.DTO.UpdateUsersAssessmentResultDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.UsersAssessmentResults.DTO.ReadUsersAssessmentResultDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UsersAssessmentResultController",
+    "Method": "Delete",
+    "RelativePath": "api/UsersAssessmentResult/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UsersAssessmentResultController",
+    "Method": "GetByIdAdmain",
+    "RelativePath": "api/UsersAssessmentResult/Admin/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.UsersAssessmentResults.DTO.AdmainReadUsersAssessmentResultDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UsersAssessmentResultPersonalityTypeController",
+    "Method": "Create",
+    "RelativePath": "api/UsersAssessmentResultPersonalityType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.UsersAssessmentResultPersonalityTypes.DTO.CreateUsersAssessmentResultPersonalityTypeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.UsersAssessmentResultPersonalityTypes.DTO.ReadUsersAssessmentResultPersonalityTypeDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UsersAssessmentResultPersonalityTypeController",
+    "Method": "GetAll",
+    "RelativePath": "api/UsersAssessmentResultPersonalityType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Common.DTOS.PagedResult\u00601[[PersonalityAssessment.Application.Features.UsersAssessmentResultPersonalityTypes.DTO.ReadUsersAssessmentResultPersonalityTypeDTO, PersonalityAssessment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UsersAssessmentResultPersonalityTypeController",
+    "Method": "GetById",
+    "RelativePath": "api/UsersAssessmentResultPersonalityType/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.UsersAssessmentResultPersonalityTypes.DTO.ReadUsersAssessmentResultPersonalityTypeDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UsersAssessmentResultPersonalityTypeController",
+    "Method": "Update",
+    "RelativePath": "api/UsersAssessmentResultPersonalityType/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.UsersAssessmentResultPersonalityTypes.DTO.UpdateUsersAssessmentResultPersonalityTypeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.UsersAssessmentResultPersonalityTypes.DTO.ReadUsersAssessmentResultPersonalityTypeDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UsersAssessmentResultPersonalityTypeController",
+    "Method": "Delete",
+    "RelativePath": "api/UsersAssessmentResultPersonalityType/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.UsersAssessmentResultPersonalityTypeController",
+    "Method": "GetByIdAdmain",
+    "RelativePath": "api/UsersAssessmentResultPersonalityType/Admin/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.UsersAssessmentResultPersonalityTypes.DTO.AdmainReadUsersAssessmentResultPersonalityTypeDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.WeakneesController",
+    "Method": "Create",
+    "RelativePath": "api/Weaknees",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.Weaknesses.DTO.CreateWeaknessDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.Weaknesses.DTO.ReadWeakneesDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.WeakneesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Weaknees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDescending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Common.DTOS.PagedResult\u00601[[PersonalityAssessment.Application.Features.Weaknesses.DTO.ReadWeakneesDTO, PersonalityAssessment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.WeakneesController",
+    "Method": "GetById",
+    "RelativePath": "api/Weaknees/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.Weaknesses.DTO.ReadWeakneesDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.WeakneesController",
+    "Method": "Update",
+    "RelativePath": "api/Weaknees/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.Weaknesses.DTO.UpdateWeaknessDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.Weaknesses.DTO.ReadWeakneesDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.WeakneesController",
+    "Method": "Delete",
+    "RelativePath": "api/Weaknees/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.WeakneesController",
+    "Method": "GetByIdAdmain",
+    "RelativePath": "api/Weaknees/Admin/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PersonalityAssessment.Application.Features.Weaknesses.DTO.AdmainReadWeaknessDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
