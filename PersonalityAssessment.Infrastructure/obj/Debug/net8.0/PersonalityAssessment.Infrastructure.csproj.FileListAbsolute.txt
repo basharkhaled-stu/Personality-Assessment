@@ -50,3 +50,4 @@ C:\Users\TCC\Desktop\t-PersonalityAssessment-main\t-PersonalityAssessment-main\P
 C:\Users\TCC\Desktop\t-PersonalityAssessment-main\t-PersonalityAssessment-main\PersonalityAssessment.Infrastructure\obj\Debug\net8.0\PersonalityAssessment.Infrastructure.pdb
 C:\Users\TCC\Desktop\t-PersonalityAssessment-main\t-PersonalityAssessment-main\PersonalityAssessment.Infrastructure\obj\Debug\net8.0\PersonalityAssessment.Infrastructure.genruntimeconfig.cache
 C:\Users\TCC\Desktop\t-PersonalityAssessment-main\t-PersonalityAssessment-main\PersonalityAssessment.Infrastructure\obj\Debug\net8.0\ref\PersonalityAssessment.Infrastructure.dll
+C:\Users\TCC\Desktop\t-PersonalityAssessment-main\t-PersonalityAssessment-main\PersonalityAssessment.Infrastructure\obj\Debug\net8.0\PersonalityAssessment.Infrastructure.sourcelink.json

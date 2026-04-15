@@ -44,3 +44,4 @@ C:\Users\TCC\Desktop\t-PersonalityAssessment-main\t-PersonalityAssessment-main\P
 C:\Users\TCC\Desktop\t-PersonalityAssessment-main\t-PersonalityAssessment-main\PersonalityAssessment.Appliction\obj\Debug\net8.0\refint\PersonalityAssessment.Application.dll
 C:\Users\TCC\Desktop\t-PersonalityAssessment-main\t-PersonalityAssessment-main\PersonalityAssessment.Appliction\obj\Debug\net8.0\PersonalityAssessment.Application.pdb
 C:\Users\TCC\Desktop\t-PersonalityAssessment-main\t-PersonalityAssessment-main\PersonalityAssessment.Appliction\obj\Debug\net8.0\ref\PersonalityAssessment.Application.dll
+C:\Users\TCC\Desktop\t-PersonalityAssessment-main\t-PersonalityAssessment-main\PersonalityAssessment.Appliction\obj\Debug\net8.0\PersonalityAssessment.Application.sourcelink.json

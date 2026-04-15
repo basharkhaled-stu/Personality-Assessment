@@ -1,5 +1,4 @@
 using FluentValidation;
-using PersonalityAssessment.Application;
 
 namespace PersonalityAssessment.Application.Features.Options.Commands.Validators
 {

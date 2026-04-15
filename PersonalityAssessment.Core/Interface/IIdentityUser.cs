@@ -3,7 +3,9 @@ namespace PersonalityAssessment.Core.Interface
     public interface IIdentityUser
     {
         Task<bool> Register(string FirstName, string LastName, string Email, string UserName, string Password, bool googleSignInCompatible = false);
+
         Task<string> Login(string UserName, string Password);
+        Task<bool> RegisterAdmin(string FirstName, string LastName, string Email, string UserName, string Password, bool googleSignInCompatible = false);
         Task<string> LoginByEmail(string Email, string Password);
         Task<string?> LoginOrRegisterWithGoogleAsync(string googleId, string email, string? name, bool emailVerified);
         Task<string?> GeneratePasswordResetTokenForEmailAsync(string email);

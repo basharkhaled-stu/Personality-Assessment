@@ -14,40 +14,55 @@ namespace PersonalityAssessment.Infrastructure.Implemention
 {
     public class IdentityUser1 : IIdentityUser
     {
-
         private readonly UserManager<AppUser> _User;
         private readonly PasswordHasher<AppUser> _PasswordHasher;
         private readonly IConfiguration _config;
         private readonly IWebHostEnvironment _webHostEnvironment;
 
+        private readonly RoleManager<IdentityRole> _roleManager;
+
         public IdentityUser1(
             UserManager<AppUser> User,
             PasswordHasher<AppUser> passwordHasher,
             IConfiguration config,
-            IWebHostEnvironment webHostEnvironment)
+            IWebHostEnvironment webHostEnvironment,
+            RoleManager<IdentityRole> roleManager)
         {
             _User = User;
             _PasswordHasher = passwordHasher;
             _config = config;
             _webHostEnvironment = webHostEnvironment;
+            _roleManager = roleManager;
         }
 
+        /*  public async Task<bool> Register(string FirstName, string LastName, string Email, string UserName, string Password, bool googleSignInCompatible = false)
+          {
+              var isHaveUser = await _User.FindByNameAsync(UserName);
 
+              if (isHaveUser != null)
+                  return false;
 
+              AppUser user = new AppUser()
+              {
+                  FirstName = FirstName,
+                  LastName = LastName,
+                  Email = Email,
+                  UserName = UserName,
+                  GoogleSignInCompatible = googleSignInCompatible
+              };
 
+              var result = await _User.CreateAsync(user, Password);
 
-
-
-
-
-
-
-
+              return result.Succeeded;
+          }*/
         public async Task<bool> Register(string FirstName, string LastName, string Email, string UserName, string Password, bool googleSignInCompatible = false)
         {
             var isHaveUser = await _User.FindByNameAsync(UserName);
-
             if (isHaveUser != null)
+                return false;
+
+            var isHaveEmail = await _User.FindByEmailAsync(Email);
+            if (isHaveEmail != null)
                 return false;
 
             AppUser user = new AppUser()
@@ -61,8 +76,51 @@ namespace PersonalityAssessment.Infrastructure.Implemention
 
             var result = await _User.CreateAsync(user, Password);
 
-            return result.Succeeded;
+            if (!result.Succeeded)
+                return false;
+
+            var roleResult = await _User.AddToRoleAsync(user, "User");
+
+            if (!roleResult.Succeeded)
+                return false;
+
+            return true;
         }
+        public async Task<bool> RegisterAdmin(string FirstName, string LastName, string Email, string UserName, string Password, bool googleSignInCompatible = false)
+        {
+            var isHaveUser = await _User.FindByNameAsync(UserName);
+            if (isHaveUser != null)
+                return false;
+
+            var isHaveEmail = await _User.FindByEmailAsync(Email);
+            if (isHaveEmail != null)
+                return false;
+
+            AppUser user = new AppUser()
+            {
+                FirstName = FirstName,
+                LastName = LastName,
+                Email = Email,
+                UserName = UserName,
+                GoogleSignInCompatible = googleSignInCompatible
+            };
+
+            var result = await _User.CreateAsync(user, Password);
+
+            if (!result.Succeeded)
+                return false;
+
+            var roleResult = await _User.AddToRoleAsync(user, "Admin");
+
+            if (!roleResult.Succeeded)
+                return false;
+
+            return true;
+        }
+
+
+
+
         public async Task<bool> Update(string UserName, string Password)
         {
             var user = await _User.FindByNameAsync(UserName);
@@ -76,6 +134,7 @@ namespace PersonalityAssessment.Infrastructure.Implemention
 
             return result.Succeeded;
         }
+
         public async Task<string> Login(string UserName, string Password)
         {
             var user = await _User.FindByNameAsync(UserName);
@@ -88,7 +147,7 @@ namespace PersonalityAssessment.Infrastructure.Implemention
             if (!result)
                 return null;
 
-            return GenerateJwtToken(user);
+            return await GenerateJwtToken(user); // FIX
         }
 
         public async Task<string> LoginByEmail(string Email, string Password)
@@ -103,7 +162,7 @@ namespace PersonalityAssessment.Infrastructure.Implemention
             if (!result)
                 return null;
 
-            return GenerateJwtToken(user);
+            return await GenerateJwtToken(user); // FIX
         }
 
         public async Task<string?> GeneratePasswordResetTokenForEmailAsync(string email)
@@ -121,7 +180,7 @@ namespace PersonalityAssessment.Infrastructure.Implemention
 
             var byLogin = await _User.FindByLoginAsync(provider, googleId);
             if (byLogin != null)
-                return GenerateJwtToken(byLogin);
+                return await GenerateJwtToken(byLogin); // FIX
 
             var byEmail = await _User.FindByEmailAsync(email);
             if (byEmail != null)
@@ -137,7 +196,8 @@ namespace PersonalityAssessment.Infrastructure.Implemention
                 byEmail.IsGoogleAccount = true;
                 byEmail.GoogleSignInCompatible = IsGmailOrGoogleMailDomain(email);
                 await _User.UpdateAsync(byEmail);
-                return GenerateJwtToken(byEmail);
+
+                return await GenerateJwtToken(byEmail); // FIX
             }
 
             if (!emailVerified)
@@ -164,11 +224,12 @@ namespace PersonalityAssessment.Infrastructure.Implemention
             if (!create.Succeeded)
                 return null;
 
-            var addNewLogin = await _User.AddLoginAsync(newUser, new UserLoginInfo(provider, googleId, provider));
+            var addNewLogin = await _User.AddLoginAsync(newUser, new UserLoginInfo(provider, googleId, provider)); // FIX (القوس)
+
             if (!addNewLogin.Succeeded)
                 return null;
 
-            return GenerateJwtToken(newUser);
+            return await GenerateJwtToken(newUser); // FIX
         }
 
         private static bool IsGmailOrGoogleMailDomain(string email)
@@ -176,6 +237,7 @@ namespace PersonalityAssessment.Infrastructure.Implemention
             var at = email.LastIndexOf('@');
             if (at < 0 || at == email.Length - 1)
                 return false;
+
             var domain = email[(at + 1)..].Trim().ToLowerInvariant();
             return domain is "gmail.com" or "googlemail.com";
         }
@@ -187,6 +249,7 @@ namespace PersonalityAssessment.Infrastructure.Implemention
 
             var trimmed = name.Trim();
             var spaceIdx = trimmed.IndexOf(' ');
+
             if (spaceIdx < 0)
                 return (trimmed, trimmed);
 
@@ -197,10 +260,13 @@ namespace PersonalityAssessment.Infrastructure.Implemention
         {
             var local = email.Split('@')[0];
             var sanitized = Regex.Replace(local, @"[^a-zA-Z0-9]", "");
+
             if (string.IsNullOrEmpty(sanitized))
                 sanitized = "user";
+
             if (sanitized.Length > 16)
                 sanitized = sanitized[..16];
+
             return sanitized;
         }
 
@@ -208,12 +274,14 @@ namespace PersonalityAssessment.Infrastructure.Implemention
         {
             var candidate = baseName;
             var n = 0;
+
             while (await _User.FindByNameAsync(candidate) != null)
             {
                 n++;
                 var suffix = n.ToString();
                 var maxLen = Math.Max(1, 20 - suffix.Length);
                 candidate = baseName.Length > maxLen ? baseName[..maxLen] + suffix : baseName + suffix;
+
                 if (candidate.Length > 20)
                     candidate = candidate[..20];
             }
@@ -228,16 +296,61 @@ namespace PersonalityAssessment.Infrastructure.Implemention
             return core + "Aa1!";
         }
 
-        public string GenerateJwtToken(AppUser user)
+        /* public async Task<string> GenerateJwtToken(AppUser user)
+         {
+             var jwtSettings = _config.GetSection("JwtSettings");
+
+             var roles = await _User.GetRolesAsync(user); // FIX
+
+             var claims = new List<Claim>
+             {
+                 new Claim(ClaimTypes.Name, user.UserName),
+                 new Claim(ClaimTypes.NameIdentifier, user.Id),
+             };
+
+             foreach (var role in roles)
+             {
+                 claims.Add(new Claim(ClaimTypes.Role, role)); // FIX
+             }
+
+             var key = new SymmetricSecurityKey(
+                 Encoding.UTF8.GetBytes(jwtSettings["Secret"])
+             );
+
+             var creds = new SigningCredentials(
+                 key,
+                 SecurityAlgorithms.HmacSha256
+             );
+
+             var token = new JwtSecurityToken(
+                 issuer: jwtSettings["Issuer"],
+                 audience: jwtSettings["Audience"],
+                 claims: claims,
+                 expires: DateTime.Now.AddMinutes(
+                     Convert.ToDouble(jwtSettings["ExpiresInMinutes"])
+                 ),
+                 signingCredentials: creds
+             );
+
+             return new JwtSecurityTokenHandler().WriteToken(token);
+         }*/
+
+        public async Task<string> GenerateJwtToken(AppUser user)
         {
             var jwtSettings = _config.GetSection("JwtSettings");
 
-            var claims = new[]
-            {
+            var roles = await _User.GetRolesAsync(user);
+
+            var claims = new List<Claim>
+    {
         new Claim(ClaimTypes.Name, user.UserName),
-        new Claim(ClaimTypes.NameIdentifier, user.Id),
-        new Claim(ClaimTypes.Role, "User")
+        new Claim(ClaimTypes.NameIdentifier, user.Id)
     };
+
+            foreach (var role in roles)
+            {
+                claims.Add(new Claim(ClaimTypes.Role, role));
+            }
 
             var key = new SymmetricSecurityKey(
                 Encoding.UTF8.GetBytes(jwtSettings["Secret"])
@@ -329,20 +442,23 @@ namespace PersonalityAssessment.Infrastructure.Implemention
 
             var ext = string.IsNullOrWhiteSpace(fileExtension)
                 ? ".bin"
-                : (fileExtension.StartsWith(".", StringComparison.Ordinal) ? fileExtension : "." + fileExtension);
+                : (fileExtension.StartsWith(".") ? fileExtension : "." + fileExtension);
 
             var webRoot = _webHostEnvironment.WebRootPath
                 ?? Path.Combine(_webHostEnvironment.ContentRootPath, "wwwroot");
+
             var uploadsDir = Path.Combine(webRoot, "uploads", "profiles");
             Directory.CreateDirectory(uploadsDir);
 
             var physicalPath = Path.Combine(uploadsDir, userId + ext);
+
             await using (var fileStream = new FileStream(physicalPath, FileMode.Create, FileAccess.Write))
             {
                 await imageStream.CopyToAsync(fileStream);
             }
 
             user.ProfileImageUrl = "/uploads/profiles/" + userId + ext;
+
             var updateResult = await _User.UpdateAsync(user);
             return updateResult.Succeeded;
         }
@@ -394,6 +510,7 @@ namespace PersonalityAssessment.Infrastructure.Implemention
 
             if (firstName != null)
                 user.FirstName = firstName;
+
             if (lastName != null)
                 user.LastName = lastName;
 
@@ -405,5 +522,7 @@ namespace PersonalityAssessment.Infrastructure.Implemention
 
             return true;
         }
+
+
     }
 }

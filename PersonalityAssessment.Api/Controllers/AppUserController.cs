@@ -1,6 +1,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using PersonalityAssessment.Application.Features.appUsers.Commands;
 using PersonalityAssessment.Application.Features.Options.Commands;
 using PersonalityAssessment.Application.Features.Options.DTO;
 using PersonalityAssessment.Application.Features.Options.Queries;
@@ -25,6 +26,15 @@ namespace PersonalityAssessment.Api.Controllers
         public async Task<IActionResult> Register(RegisterappUserDTO dto)
         {
             var commamd = new CreateappUserCommand(dto);
+            var result = await _Mediator.Send(commamd);
+            return Ok(result);
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpPost("RegisterAdmain")]
+        public async Task<IActionResult> RegisterAdmin(RegisterappUserDTO dto)
+        {
+            var commamd = new CreateappUserCommandAdmin(dto);
             var result = await _Mediator.Send(commamd);
             return Ok(result);
         }

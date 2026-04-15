@@ -1,5 +1,4 @@
 using MediatR;
-using PersonalityAssessment.Application;
 using PersonalityAssessment.Core.Interface;
 
 namespace PersonalityAssessment.Application.Features.Options.Commands.Handlers

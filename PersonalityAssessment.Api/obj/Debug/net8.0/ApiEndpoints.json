@@ -318,6 +318,22 @@
   },
   {
     "ContainingType": "PersonalityAssessment.Api.Controllers.AppUserController",
+    "Method": "RegisterAdmin",
+    "RelativePath": "api/AppUser/RegisterAdmain",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PersonalityAssessment.Application.Features.Options.DTO.RegisterappUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonalityAssessment.Api.Controllers.AppUserController",
     "Method": "UpdateUsername",
     "RelativePath": "api/AppUser/Username",
     "HttpMethod": "PUT",
