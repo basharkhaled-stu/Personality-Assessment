@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{38430DEB-FF90-4FAB-B1F2-3E375E8D4B78}|PersonalityAssessment.Api\\PersonalityAssessment.Api.csproj|c:\\users\\tcc\\desktop\\t-personalityassessment-main\\t-personalityassessment-main\\personalityassessment.api\\controllers\\usersassessmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38430DEB-FF90-4FAB-B1F2-3E375E8D4B78}|PersonalityAssessment.Api\\PersonalityAssessment.Api.csproj|solutionrelative:personalityassessment.api\\controllers\\usersassessmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38430DEB-FF90-4FAB-B1F2-3E375E8D4B78}|PersonalityAssessment.Api\\PersonalityAssessment.Api.csproj|c:\\users\\tcc\\desktop\\t-personalityassessment-main\\t-personalityassessment-main\\personalityassessment.api\\controllers\\userassessmentstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38430DEB-FF90-4FAB-B1F2-3E375E8D4B78}|PersonalityAssessment.Api\\PersonalityAssessment.Api.csproj|solutionrelative:personalityassessment.api\\controllers\\userassessmentstatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B969EDF8-A266-4CF0-9243-2AC752B39A8A}|PersonalityAssessment.Infrastructure\\PersonalityAssessment.Infrastructure.csproj|c:\\users\\tcc\\desktop\\t-personalityassessment-main\\t-personalityassessment-main\\personalityassessment.infrastructure\\configurations\\assessmentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B969EDF8-A266-4CF0-9243-2AC752B39A8A}|PersonalityAssessment.Infrastructure\\PersonalityAssessment.Infrastructure.csproj|solutionrelative:personalityassessment.infrastructure\\configurations\\assessmentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -54,11 +62,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersAssessmentController.cs",
+              "DocumentMoniker": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Api\\Controllers\\UsersAssessmentController.cs",
+              "RelativeDocumentMoniker": "PersonalityAssessment.Api\\Controllers\\UsersAssessmentController.cs",
+              "ToolTip": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Api\\Controllers\\UsersAssessmentController.cs",
+              "RelativeToolTip": "PersonalityAssessment.Api\\Controllers\\UsersAssessmentController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAIwCwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T22:34:24.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UserAssessmentStatusController.cs",
+              "DocumentMoniker": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Api\\Controllers\\UserAssessmentStatusController.cs",
+              "RelativeDocumentMoniker": "PersonalityAssessment.Api\\Controllers\\UserAssessmentStatusController.cs",
+              "ToolTip": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Api\\Controllers\\UserAssessmentStatusController.cs",
+              "RelativeToolTip": "PersonalityAssessment.Api\\Controllers\\UserAssessmentStatusController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T22:34:23.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AppUserCofig.cs",
               "DocumentMoniker": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Infrastructure\\Configurations\\AppUserCofig.cs",
               "RelativeDocumentMoniker": "PersonalityAssessment.Infrastructure\\Configurations\\AppUserCofig.cs",
@@ -66,12 +100,11 @@
               "RelativeToolTip": "PersonalityAssessment.Infrastructure\\Configurations\\AppUserCofig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T23:02:35.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T23:02:35.783Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Infrastructure\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "PersonalityAssessment.Infrastructure\\Data\\ApplicationDbContext.cs",
@@ -79,12 +112,11 @@
               "RelativeToolTip": "PersonalityAssessment.Infrastructure\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T23:02:05.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T23:02:05.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Infrastructure\\User\\AppUser.cs",
               "RelativeDocumentMoniker": "PersonalityAssessment.Infrastructure\\User\\AppUser.cs",
@@ -92,12 +124,11 @@
               "RelativeToolTip": "PersonalityAssessment.Infrastructure\\User\\AppUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T23:01:55.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T23:01:55.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "InfrastructureRegistrations.cs",
               "DocumentMoniker": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Infrastructure\\InfrastructureRegistrations.cs",
               "RelativeDocumentMoniker": "PersonalityAssessment.Infrastructure\\InfrastructureRegistrations.cs",
@@ -105,25 +136,24 @@
               "RelativeToolTip": "PersonalityAssessment.Infrastructure\\InfrastructureRegistrations.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T23:01:53.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T23:01:53.774Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AssessmentConfig.cs",
               "DocumentMoniker": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Infrastructure\\Configurations\\AssessmentConfig.cs",
               "RelativeDocumentMoniker": "PersonalityAssessment.Infrastructure\\Configurations\\AssessmentConfig.cs",
               "ToolTip": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Infrastructure\\Configurations\\AssessmentConfig.cs",
               "RelativeToolTip": "PersonalityAssessment.Infrastructure\\Configurations\\AssessmentConfig.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-23T23:00:26.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Core\\UnitOfWork\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "PersonalityAssessment.Core\\UnitOfWork\\IUnitOfWork.cs",
@@ -131,12 +161,11 @@
               "RelativeToolTip": "PersonalityAssessment.Core\\UnitOfWork\\IUnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T22:47:53.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T22:47:53.305Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Core\\Repository\\IRepository.cs",
               "RelativeDocumentMoniker": "PersonalityAssessment.Core\\Repository\\IRepository.cs",
@@ -144,12 +173,11 @@
               "RelativeToolTip": "PersonalityAssessment.Core\\Repository\\IRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T22:47:14.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T22:47:14.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "CreateAssessmentCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Appliction\\Features\\Assessmentes\\Commands\\Handlers\\CreateAssessmentCommandHandler.cs",
               "RelativeDocumentMoniker": "PersonalityAssessment.Appliction\\Features\\Assessmentes\\Commands\\Handlers\\CreateAssessmentCommandHandler.cs",
@@ -157,12 +185,11 @@
               "RelativeToolTip": "PersonalityAssessment.Appliction\\Features\\Assessmentes\\Commands\\Handlers\\CreateAssessmentCommandHandler.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T16:21:56.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T16:21:56.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "CreateAssessmentValidator.cs",
               "DocumentMoniker": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Appliction\\Features\\Assessmentes\\Commands\\Validators\\CreateAssessmentValidator.cs",
               "RelativeDocumentMoniker": "PersonalityAssessment.Appliction\\Features\\Assessmentes\\Commands\\Validators\\CreateAssessmentValidator.cs",
@@ -170,12 +197,11 @@
               "RelativeToolTip": "PersonalityAssessment.Appliction\\Features\\Assessmentes\\Commands\\Validators\\CreateAssessmentValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T17:54:19.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T17:54:19.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "ValidationBehavior.cs",
               "DocumentMoniker": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Appliction\\Behaviors\\ValidationBehavior.cs",
               "RelativeDocumentMoniker": "PersonalityAssessment.Appliction\\Behaviors\\ValidationBehavior.cs",
@@ -183,21 +209,19 @@
               "RelativeToolTip": "PersonalityAssessment.Appliction\\Behaviors\\ValidationBehavior.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwBIAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T17:37:09.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T17:37:09.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ApplicationServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Appliction\\ApplicationServiceRegistration.cs",
               "RelativeDocumentMoniker": "PersonalityAssessment.Appliction\\ApplicationServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Appliction\\ApplicationServiceRegistration.cs*",
-              "RelativeToolTip": "PersonalityAssessment.Appliction\\ApplicationServiceRegistration.cs*",
+              "ToolTip": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Appliction\\ApplicationServiceRegistration.cs",
+              "RelativeToolTip": "PersonalityAssessment.Appliction\\ApplicationServiceRegistration.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T17:24:04.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T17:24:04.168Z"
             }
           ]
         }

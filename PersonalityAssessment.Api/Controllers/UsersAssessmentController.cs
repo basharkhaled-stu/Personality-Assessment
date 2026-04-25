@@ -32,11 +32,13 @@ namespace PersonalityAssessment.Api.Controllers
         [HttpPost]
         public async Task<ActionResult<ReadUsersAssessmentDTO>> Create(CreateUsersAssessmentDTO dto)
         {
-            //var userId = User.FindFirst(
-            //System.Security.Claims.ClaimTypes.NameIdentifier
-            //)?.Value;
+            var userId = User.FindFirst(
+            System.Security.Claims.ClaimTypes.NameIdentifier
+            )?.Value;
 
-            var userId = "E97C7805-59BD-4BA5-A467-09D03ACDB619";
+            if (string.IsNullOrEmpty(userId))
+                return Unauthorized();
+
             var command = new CreateUsersAssessmentCommand(dto, userId);
             var result = await _mediator.Send(command);
             return CreatedAtAction(nameof(GetById), new { id = result.Id }, result);
