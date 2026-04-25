@@ -28,7 +28,7 @@ namespace PersonalityAssessment.Api.Controllers
             return Ok(result);
         }
 
-        [Authorize(Roles = "Admin")]
+        [Authorize]
         [HttpPost]
         public async Task<ActionResult<ReadUsersAssessmentDTO>> Create(CreateUsersAssessmentDTO dto)
         {
