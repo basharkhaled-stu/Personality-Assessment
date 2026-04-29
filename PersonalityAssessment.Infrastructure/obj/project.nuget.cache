@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lNHVw1JTPZQ=",
+  "dgSpecHash": "ONjoCtNHP98=",
   "success": true,
-  "projectFilePath": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Infrastructure\\PersonalityAssessment.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-fixed5\\t-PersonalityAssessment-main\\PersonalityAssessment.Infrastructure\\PersonalityAssessment.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TCC\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\TCC\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

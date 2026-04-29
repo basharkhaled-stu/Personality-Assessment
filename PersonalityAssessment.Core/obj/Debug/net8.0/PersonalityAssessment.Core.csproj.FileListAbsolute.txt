@@ -36,3 +36,16 @@ C:\Users\TCC\Desktop\t-PersonalityAssessment-main\t-PersonalityAssessment-main\P
 C:\Users\TCC\Desktop\t-PersonalityAssessment-main\t-PersonalityAssessment-main\PersonalityAssessment.Core\obj\Debug\net8.0\PersonalityAssessment.Core.pdb
 C:\Users\TCC\Desktop\t-PersonalityAssessment-main\t-PersonalityAssessment-main\PersonalityAssessment.Core\obj\Debug\net8.0\ref\PersonalityAssessment.Core.dll
 C:\Users\TCC\Desktop\t-PersonalityAssessment-main\t-PersonalityAssessment-main\PersonalityAssessment.Core\obj\Debug\net8.0\PersonalityAssessment.Core.sourcelink.json
+C:\Users\TCC\Desktop\t-PersonalityAssessment-fixed5\t-PersonalityAssessment-main\PersonalityAssessment.Core\bin\Debug\net8.0\PersonalityAssessment.Core.deps.json
+C:\Users\TCC\Desktop\t-PersonalityAssessment-fixed5\t-PersonalityAssessment-main\PersonalityAssessment.Core\bin\Debug\net8.0\PersonalityAssessment.Core.dll
+C:\Users\TCC\Desktop\t-PersonalityAssessment-fixed5\t-PersonalityAssessment-main\PersonalityAssessment.Core\bin\Debug\net8.0\PersonalityAssessment.Core.pdb
+C:\Users\TCC\Desktop\t-PersonalityAssessment-fixed5\t-PersonalityAssessment-main\PersonalityAssessment.Core\obj\Debug\net8.0\PersonalityAssessment.Core.csproj.AssemblyReference.cache
+C:\Users\TCC\Desktop\t-PersonalityAssessment-fixed5\t-PersonalityAssessment-main\PersonalityAssessment.Core\obj\Debug\net8.0\PersonalityAssessment.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TCC\Desktop\t-PersonalityAssessment-fixed5\t-PersonalityAssessment-main\PersonalityAssessment.Core\obj\Debug\net8.0\PersonalityAssessment.Core.AssemblyInfoInputs.cache
+C:\Users\TCC\Desktop\t-PersonalityAssessment-fixed5\t-PersonalityAssessment-main\PersonalityAssessment.Core\obj\Debug\net8.0\PersonalityAssessment.Core.AssemblyInfo.cs
+C:\Users\TCC\Desktop\t-PersonalityAssessment-fixed5\t-PersonalityAssessment-main\PersonalityAssessment.Core\obj\Debug\net8.0\PersonalityAssessment.Core.csproj.CoreCompileInputs.cache
+C:\Users\TCC\Desktop\t-PersonalityAssessment-fixed5\t-PersonalityAssessment-main\PersonalityAssessment.Core\obj\Debug\net8.0\PersonalityAssessment.Core.sourcelink.json
+C:\Users\TCC\Desktop\t-PersonalityAssessment-fixed5\t-PersonalityAssessment-main\PersonalityAssessment.Core\obj\Debug\net8.0\PersonalityAssessment.Core.dll
+C:\Users\TCC\Desktop\t-PersonalityAssessment-fixed5\t-PersonalityAssessment-main\PersonalityAssessment.Core\obj\Debug\net8.0\refint\PersonalityAssessment.Core.dll
+C:\Users\TCC\Desktop\t-PersonalityAssessment-fixed5\t-PersonalityAssessment-main\PersonalityAssessment.Core\obj\Debug\net8.0\PersonalityAssessment.Core.pdb
+C:\Users\TCC\Desktop\t-PersonalityAssessment-fixed5\t-PersonalityAssessment-main\PersonalityAssessment.Core\obj\Debug\net8.0\ref\PersonalityAssessment.Core.dll

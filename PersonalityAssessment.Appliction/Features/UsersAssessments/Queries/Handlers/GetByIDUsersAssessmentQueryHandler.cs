@@ -14,47 +14,51 @@ namespace PersonalityAssessment.Application.Features.UsersAssessments.Queries.Ha
         private readonly IRepository<UsersAssessment> _repository;
         private readonly IIdentityService _identityService;
         private readonly IRepository<UserAssessmentStatus> _repositoryUserAssessmentStatus;
-
         private readonly IMapper _mapper;
 
         public GetByIDUsersAssessmentQueryHandler(
             IRepository<UsersAssessment> repository,
             IRepository<UserAssessmentStatus> repositoryUserAssessmentStatus,
-
-             IIdentityService identityService,
+            IIdentityService identityService,
             IMapper mapper)
         {
             _repository = repository;
             _repositoryUserAssessmentStatus = repositoryUserAssessmentStatus;
             _identityService = identityService;
             _mapper = mapper;
-
         }
-        public async Task<ReadUsersAssessmentDTO> Handle
-            (GetUsersAssessmentByIdQuery request,
+
+        public async Task<ReadUsersAssessmentDTO> Handle(
+            GetUsersAssessmentByIdQuery request,
             CancellationToken cancellationToken)
         {
             var entity = await _repository.GetByIdAsync(request.id);
-
             if (entity == null)
                 throw new NotFoundException($"UsersAssessment with ID {request.id} not found.");
 
-            var resultUserAssessmentStatus = await _repositoryUserAssessmentStatus.GetByIdAsync(entity.UserAssessmentStatusId);
+            var statusName = "";
+            try
+            {
+                var status = await _repositoryUserAssessmentStatus.GetByIdAsync(entity.UserAssessmentStatusId);
+                statusName = status?.Name ?? "";
+            }
+            catch { }
 
-            var userName = await _identityService.GetFullNameAsync(entity.UserId);
+            var userName = "";
+            try
+            {
+                userName = await _identityService.GetFullNameAsync(entity.UserId) ?? entity.UserId;
+            }
+            catch { }
 
-            var dto = new ReadUsersAssessmentDTO
+            return new ReadUsersAssessmentDTO
             {
                 Id = entity.Id,
                 UserName = userName,
-                UserAssessmentStatusName = resultUserAssessmentStatus.Name,
+                UserAssessmentStatusName = statusName,
                 StartedAt = entity.StartedAt,
                 CompletedAt = entity.CompletedAt
             };
-
-
-
-            return dto;
         }
     }
 }

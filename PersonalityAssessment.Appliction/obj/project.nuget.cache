@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Eidp3qmqasA=",
+  "dgSpecHash": "xv3i0boN16U=",
   "success": true,
-  "projectFilePath": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Appliction\\PersonalityAssessment.Application.csproj",
+  "projectFilePath": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-fixed5\\t-PersonalityAssessment-main\\PersonalityAssessment.Appliction\\PersonalityAssessment.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TCC\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\TCC\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
@@ -34,9 +34,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'AutoMapper' 12.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
-      "projectPath": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Appliction\\PersonalityAssessment.Application.csproj",
+      "projectPath": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-fixed5\\t-PersonalityAssessment-main\\PersonalityAssessment.Appliction\\PersonalityAssessment.Application.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-main\\t-PersonalityAssessment-main\\PersonalityAssessment.Appliction\\PersonalityAssessment.Application.csproj",
+      "filePath": "C:\\Users\\TCC\\Desktop\\t-PersonalityAssessment-fixed5\\t-PersonalityAssessment-main\\PersonalityAssessment.Appliction\\PersonalityAssessment.Application.csproj",
       "libraryId": "AutoMapper",
       "targetGraphs": [
         "net8.0"

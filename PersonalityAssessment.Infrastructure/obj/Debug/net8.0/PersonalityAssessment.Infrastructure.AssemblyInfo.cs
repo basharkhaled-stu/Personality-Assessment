@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PersonalityAssessment.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7d6dc48ae332ee08ace5e0c32bdb773a28eaa05")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b078be3894dc49cb637c535d527aa1e606bb41e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("PersonalityAssessment.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PersonalityAssessment.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

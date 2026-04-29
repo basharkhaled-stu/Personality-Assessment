@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PersonalityAssessment.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9643fc522a7ee017763ce45022b8ce4de414cf2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b078be3894dc49cb637c535d527aa1e606bb41e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("PersonalityAssessment.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PersonalityAssessment.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -16,12 +16,17 @@ namespace PersonalityAssessment.Infrastructure.Repositories
 
         public async Task<UsersAssessment?> GetByIdWithResultsAsync(int id)
         {
-            return await _context.UsersAssessments.FindAsync(id);
+            return await _context.UsersAssessments
+                .Include(ua => ua.UsersAssessmentResults)
+                    .ThenInclude(r => r.UsersAssessmentResultPersonalityType)
+                .FirstOrDefaultAsync(ua => ua.Id == id);
         }
 
+        // ← Include PersonalityType so Name/Label are not null
         public async Task<List<OptionPersonalityScore>> GetPersonalityScoresByOptionsAsync(List<int> optionIds)
         {
             return await _context.OptionPersonalityScores
+                .Include(ops => ops.PersonalityType)
                 .Where(ops => optionIds.Contains(ops.OptionId))
                 .ToListAsync();
         }
@@ -40,9 +45,9 @@ namespace PersonalityAssessment.Infrastructure.Repositories
 
         public async Task<List<Weakness>> GetWeaknessesByPersonalityTypeIdsAsync(List<int> personalityTypeIds)
         {
-            // Temporarily return empty list to isolate compilation issue
-            await Task.CompletedTask;
-            return new List<Weakness>();
+            return await _context.Weaknesses
+                .Where(w => personalityTypeIds.Contains(w.PersonalityTypeId))
+                .ToListAsync();
         }
 
         public async Task<UserAssessmentStatus?> GetCompletedStatusAsync()
